@@ -2,7 +2,10 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter,Switch,Link, Route } from "react-router-dom";
 import Loading from "./Loading";
 import Tours from "./Tours";
-import Header from "./Header";
+import Footer from "./Footer"
+import Donate from "./Donate"
+import Discounts from "./Discounts";
+import Contacts from "./Contacts";
 const url = "http://localhost:3000/tours";
 
 function App() {
@@ -54,19 +57,36 @@ function App() {
 
     <div>
       <BrowserRouter>
-        <nav>
-          <li><Link to="/tours">Our Tours</Link></li>
-        </nav>
+
+          <div className="navbar">
+            <h2>Tembea <span>Kenya</span></h2>
+             <div>
+             <nav>
+                <li><Link to="/discounts">Discouts and Offers</Link></li>
+                <li><Link to="/donate">Donate</Link></li>
+                <li><Link to="/contacts">Contacts</Link></li>
+              </nav>
+             </div>
+          </div>
+       
        <Switch>
-        <Route path="/tours">
-          <Tours />
+        <Route path="/discounts">
+          <Discounts />
+        </Route>
+        <Route path="/donate">
+          <Donate />
+        </Route>
+        <Route path="/contacts">
+          <Contacts />
         </Route>
        </Switch>
       </BrowserRouter>
-       <Header />
+      
        <main>
         <Tours tours={tours} removeTour={removeTour} />
+        <Footer />
        </main>
+      
     </div>
    
   );

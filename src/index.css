@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* navbar */
 header{
   display: flex;
   border: 1px solid red;
@@ -30,6 +31,29 @@ li{
   padding: 1rem;
 
 }
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  height: 150px;
+
+
+}
+nav{
+  list-style: none;
+  display: flex;
+  
+}
+a{
+  color: black;
+
+}
+.donate{
+  width: 80%;
+  margin: 0 auto;
+}
+
 span{
   color:rgb(160, 63, 63);
 }
@@ -37,6 +61,7 @@ span{
 
 a {
   text-decoration: none;
+  color:rgb(160, 63, 63)
 }
 h1,
 h2,
@@ -90,7 +115,7 @@ p {
 .tour-description{
   font-size: 1.4rem;
 }
-/*  global classes */
+
 
 /* section */
 .section {
@@ -192,4 +217,8 @@ main {
   background:rgb(160, 63, 63) ;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
+}
+footer{
+  width: 80%;
+  margin: 0 auto;
 }
