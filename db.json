@@ -1,0 +1,32 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "name": "A two day visit in Massai Mara ",
+      "info": "Elephants are majestic and intelligent animals. There are two types of elephants: Asian and African elephants. Some of the Asian elephants are located in India, Thailand, and Sri Lanka. African elephants are the largest land mammals. In Mara, the elephant species is the African Elephant, which includes the forest and savannah elephant, known as tembo or ndovu by Kenyan locals. Here are some interesting facts about elephants that you need to know",
+      "price": "6550",
+      "image": "https://images.pexels.com/photos/750536/pexels-photo-750536.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": 2,
+      "name": "Watch wildbeest migration in  Angama Mara",
+      "info": "Welcome to Angama, inspired by the Swahili word for ‘suspended in mid-air’. Located high above the floor of Africa’s Great Rift Valley, Angama Mara is a remarkable owner-run safari lodge overlooking Kenya’s Maasai Mara, considered by many as the loveliest game reserve on the continent with a view of wildbeest migration across Mara river.",
+      "price": "35550",
+      "image": "https://images.pexels.com/photos/6056074/pexels-photo-6056074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "name": "A week in Blue Marlin Sandy beach,Ukunda",
+      "info": "Blue Marlin is a small family run hotel.Set in the most beautiful part of diani beach,Blue marlin is perfect for anyone looking to relax in a quietly arranged beach setting.We have spacious rooms designed in a minimalistic coastal swahili style,air conditioned with large terraces",
+      "price": "45000",
+      "image": "https://images.pexels.com/photos/1049298/pexels-photo-1049298.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": 4,
+      "name": "3 days Camping in Chalbi desert",
+      "info": "The Chalbi Desert is located in between Mount Marsabit and Lake Turkana. The area is 110 km long and 10 to 20 km wide and it extends over 1,000 km2. The area is composed by both an ancient lakebed and rocky and lava regions. The ancient lakebed of Chalbi used to be a shallow lake around 10,000 to 11,000 years ago.",
+      "price": "20000",
+      "image": "https://i0.wp.com/www.kenyanbackpacker.com/wp-content/uploads/2019/03/Desert-Safari-in-Chalbi-Dessert-Kenya.jpg?fit=1024%2C600&ssl=1"
+    }
+  ]
+}
