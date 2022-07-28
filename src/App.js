@@ -7,7 +7,6 @@ import Donate from "./Donate"
 import Discounts from "./Discounts";
 import Contacts from "./Contacts";
 const url = "https://phase-2-tembea-api.herokuapp.com/tours";
-
 function App() {
   const [loading, setLoading] = useState(false);
   const [tours, setTours] = useState([]);
@@ -66,7 +65,6 @@ function App() {
               </nav>
              </div>
           </div>
-       
        <Switch>
         <Route path="/discounts">
           <Discounts />
