@@ -56,9 +56,8 @@ function App() {
 
     <div>
       <BrowserRouter>
-
           <div className="navbar">
-            <h2>Tembea <span>Kenya</span></h2>
+            <h2>Tembea <span>Kenya</span> </h2>
              <div>
              <nav>
                 <li><Link to="/discounts">Discouts and Offers</Link></li>
@@ -80,14 +79,11 @@ function App() {
         </Route>
        </Switch>
       </BrowserRouter>
-      
        <main>
         <Tours tours={tours} removeTour={removeTour} />
         <Footer />
        </main>
-      
     </div>
-   
   );
 }
 
