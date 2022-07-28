@@ -17,14 +17,11 @@
  ## Description
  Tembea Kenya is a web application which connects user to planned tours within kenya at an affordable rates.
 
-## Design
-The link to Our Figma design is https://www.figma.com/file/WsTPRMGt4Ug7ywmWip69a6/My-file?node-id=0%3A1
-
 ## Features
 A user will be able to:
 1. View planned tours by tembea kenya
 2. Discard tours not interested in
-3. Buy as coffe for job well done
+3. Donate to various wildlife conservationccl drives
 
 ## Behaviour Driven Development|
 | Behaviour      | Input        | Output       |
@@ -46,7 +43,10 @@ A user will be able to:
 ### Live Link
 - Click this link to view the live application http://localhost:3004/
 ### Technology  Used
-* REACT was exclusively usedin this project.
+* REACT was exclusively used in this project.
+## Known Bugs
+- I encountered a number of bugs working on this project :
+  1. Deployment to the Heroku app had issues with node version package.json,I researched extensively on google,stackoverflow,fellow students.I'm yet to fully resolved this bug.
 
 
 ## Licence
