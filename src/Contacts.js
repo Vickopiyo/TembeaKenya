@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Contacts = () => {
   return (
     <div>
@@ -11,5 +10,4 @@ const Contacts = () => {
     </div>
   )
 }
-
 export default Contacts

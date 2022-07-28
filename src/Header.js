@@ -4,11 +4,11 @@ const Header = () => {
   return (
     <header>
         <h1>Tembea <span>Kenya</span> </h1>
-        <ul>
+          <ul>
             <li>Our Tours</li>
             <li>Offers and Discount</li>
-            <li>Donate</li>
-        </ul>
+            <li>Donate </li>
+          </ul>
     </header>
   )
 }
