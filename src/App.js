@@ -58,29 +58,29 @@ function App() {
           <div className="navbar">
             <h2>Tembea <span>Kenya</span> </h2>
              <div>
-             <nav>
-                <li><Link to="/discounts">Discouts and Offers</Link></li>
-                <li><Link to="/donate">Donate</Link></li>
-                <li><Link to="/contacts">Contacts</Link></li>
-              </nav>
+                <nav>
+                  <li><Link to="/discounts">Discouts and Offers</Link></li>
+                  <li><Link to="/donate">Donate</Link></li>
+                  <li><Link to="/contacts">Contacts</Link></li>
+                </nav>
              </div>
           </div>
-       <Switch>
-        <Route path="/discounts">
-          <Discounts />
-        </Route>
-        <Route path="/donate">
-          <Donate />
-        </Route>
-        <Route path="/contacts">
-          <Contacts />
-        </Route>
-       </Switch>
+          <Switch>
+            <Route path="/discounts">
+              <Discounts />
+            </Route>
+            <Route path="/donate">
+              <Donate />
+            </Route>
+            <Route path="/contacts">
+              <Contacts />
+            </Route>
+         </Switch>
       </BrowserRouter>
-       <main>
-        <Tours tours={tours} removeTour={removeTour} />
-        <Footer />
-       </main>
+        <main>
+          <Tours tours={tours} removeTour={removeTour} />
+          <Footer />
+        </main>
     </div>
   );
 }
