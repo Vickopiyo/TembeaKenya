@@ -9,6 +9,7 @@ const Discounts = () => {
                 <li>25% discount on your third booking with us</li>
                 <li>We give cash awards to our clients who refer other clients</li>
             </ul>
+            <h4>We appreciate your efforts to market us!</h4>
     </div>
   )
 }
