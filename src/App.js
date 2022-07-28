@@ -8,29 +8,28 @@ import Discounts from "./Discounts";
 import Contacts from "./Contacts";
 const url = "https://phase-2-tembea-api.herokuapp.com/tours";
 function App() {
-  const [loading, setLoading] = useState(false);
-  const [tours, setTours] = useState([]);
+    const [loading, setLoading] = useState(false);
+    const [tours, setTours] = useState([]);
 
-  const removeTour = (id) => {
-    const updatedTours = tours.filter((tour) => tour.id !== id);
-    setTours(updatedTours);
-  };
+    const removeTour = (id) => {
+      const updatedTours = tours.filter((tour) => tour.id !== id);
+      setTours(updatedTours);
+    };
 
-  const fetchTours = async () => {
-    setLoading(true);
-    try {
-      const response = await fetch(url);
-      const tours = await response.json();
-      setLoading(false);
-      setTours(tours);
-    } catch (error) {
-      setLoading(false);
-    }
+    const fetchTours = async () => {
+      setLoading(true);
+      try {
+        const response = await fetch(url);
+        const tours = await response.json();
+        setLoading(false);
+        setTours(tours);
+      } catch (error) {
+        setLoading(false);
+      }
   };
   useEffect(() => {
     fetchTours();
   }, []);
-
   if (loading) {
     return (
       <main>
@@ -52,7 +51,6 @@ function App() {
     );
   }
   return (
-
     <div>
       <BrowserRouter>
           <div className="navbar">
