@@ -6,7 +6,7 @@ import Footer from "./Footer"
 import Donate from "./Donate"
 import Discounts from "./Discounts";
 import Contacts from "./Contacts";
-const url = "http://localhost:3000/tours";
+const url = "https://phase-2-tembea-api.herokuapp.com/tours";
 
 function App() {
   const [loading, setLoading] = useState(false);
