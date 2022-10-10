@@ -15,7 +15,7 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- Tembea Kenya is a web application which connects user to planned tours within kenya at an affordable rates.
+ Aroma Kenya is an online horticultural platform where users/florists are able to post about their products and contacts thereby creating a wide market base for their products.
 
 ## Features
 A user will be able to:
